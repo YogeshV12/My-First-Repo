@@ -11,6 +11,7 @@ class LinkedList:
 
 	def printL(self1):
 		temp = self1.head
+		print("Hello")
 		while(temp):
 			print (temp.data3)
 			temp = temp.next
