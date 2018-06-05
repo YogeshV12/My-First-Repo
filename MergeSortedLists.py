@@ -79,16 +79,6 @@ class LinkedList:
 			m+=1
 			n-=1
 
-	def FloydCycle(self):
-		slow = self.head
-		fast = self.head
-		while (slow and fast and fast.next):
-			slow = slow.next
-			fast = fast.next.next
-			if(slow == fast):
-				return True
-		return False
-
 	def MergeSorted(self, headOf2):
 		temp1 = self.head
 		temp2 = headOf2
